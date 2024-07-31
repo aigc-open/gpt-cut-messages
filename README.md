@@ -19,9 +19,9 @@ def test_cut_messages():
     question = "hi你是谁呢"*100
     messages=[{"role": "user", "content": question}]*100
     token_limit = 200
-    print(messages_token_count(messages,token_limit=200000))
-    cut_messages(messages=messages, token_limit=token_limit)
+    print(messages_token_count(messages,token_limit=200000)) # 计算messages总数token
+    cut_messages(messages=messages, token_limit=token_limit) # 裁剪
     print(messages)
     print(len(messages))
-    print(messages_token_count(messages,token_limit=200000))
+    print(messages_token_count(messages,token_limit=200000)) # 计算messages总数token
 ```
