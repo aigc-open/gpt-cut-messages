@@ -1,0 +1,3 @@
+loguru==0.7.2
+tiktoken==0.5.2
+git+https://github.com/jackLi-2024/daily-basic-function.git
