@@ -5,7 +5,7 @@ gpt 相关 token 预计算，token 超过长度裁剪至目标长度
 ## install
 
 ```bash
-pip install git+https://github.com/jackLi-2024/gpt-cut-messages.git
+pip install git+https://github.com/aigc-open/gpt-cut-messages.git
 ```
 
 ## gpt_cut_messages
