@@ -11,10 +11,11 @@ print("install package ...\n", find_packages())
 with open('requirements.txt') as f:
     requirements = f.readlines()
 
+
 setup(
     name="gpt_cut_messages",
     version="0.1",
     packages=find_packages(),
     include_package_data=True,
-    install_requires=requirements
+    install_requires=requirements,
 )

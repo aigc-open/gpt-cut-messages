@@ -1,0 +1,10 @@
+**/frontend/node_modules*
+**/frontend/build/
+**/frontend/.yarn*
+llm_transparency_tool.egg-info
+.vscode/
+.mypy_cache/
+__pycache__/
+.DS_Store
+build
+*egg-info
