@@ -60,7 +60,3 @@ def cut_string(str, token_limit):
     while string_token_count(str) > token_limit and len(str) > 3:
         str = str[3:]
     return str
-
-
-if __name__ == "__main__":
-    init_tiktoken()
