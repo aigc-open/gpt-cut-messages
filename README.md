@@ -1,6 +1,9 @@
 # gpt-cut-messages
 
 gpt 相关 token 预计算，token 超过长度裁剪至目标长度
+- cut_messages: 自动根据token限制进行裁剪
+- cut_string: 长文本裁剪
+- messages_token_count: 计算messages总数token
 
 ## install
 
