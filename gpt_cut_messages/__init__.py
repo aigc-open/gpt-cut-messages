@@ -46,7 +46,7 @@ def cut_messages(messages, token_limit):
         # 如果最后一个元素是assistant,则不要
         messages.pop()
         message_last = messages[-1]
-    while messages_token_count(messages, token_limit) > token_limit:
+    while len(messages) >0 and messages_token_count(messages, token_limit) > token_limit:
         messages.pop(0)
     if len(messages) == 0:
         content = message_last.get("content", "")
